@@ -1,0 +1,118 @@
+#idiv {
+  height: 100px;
+  
+}
+ 
+#imgg{
+  padding: 0;
+  max-height: 100%;
+  min-width: 100%;
+ 
+}
+
+.item img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+} 
+
+/*----------ScrollBar CSS START--------------
+   
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #ffc107; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc107; 
+}
+---------ScrollBar CSS END--------------*/
+
+
+#wrapper {
+    
+    overflow-x:scroll;
+    overflow-y:hidden; 
+}
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+.doldur::placeholder {
+  opacity: 1;
+  color: white;
+}
+
+
+
+
+
+
+/* Style the navbar */
+#navbari {
+ 
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbari a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* vertical line */
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+
+
+ 
+ 
